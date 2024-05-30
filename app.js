@@ -38,7 +38,7 @@ for (const post of posts) {
     /*html*/ `
     <article class="grid-item">
       <img src="${post.acf.image}" alt="${post.title.rendered}" />
-      <h2>${post.title.rendered}</h2> <h4>${post.acf.short_description}</h4>
+      <h2>${post.title.rendered}</h2> <p3>${post.acf.short_description}</p3>
     </article>
   `
   );
