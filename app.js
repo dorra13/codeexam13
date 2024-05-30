@@ -12,7 +12,7 @@ window.addEventListener("load", initApp); // When the page is loaded, run initAp
  
 }
 async function getPosts(){
-  const response = await fetch( "http://codeexam.doradesigns.dk/wp-json/wp/v2/projects?acf_format=standard"
+  const response = await fetch( "https://codeexam.doradesigns.dk/wp-json/wp/v2/projects?acf_format=standard"
   );
   const data = await response.json();
   return data;
